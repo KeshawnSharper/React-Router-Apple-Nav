@@ -1,0 +1,12 @@
+function Routers (props){
+const { route } = props 
+
+return (
+<>
+    route.map{route => <Route path={`/${route}`} component={route}>}
+    </>
+)
+
+
+
+}
